@@ -44,3 +44,20 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
+
+gradle.taskGraph.afterTask { task ->
+    StringBuffer taskDetails = new StringBuffer()
+    taskDetails << """"-------------
+name:$task.name group:$task.group : $task.description
+conv:$task.convention.plugins
+"""
+    task.inputs.files.each{ it ->
+        taskDetails << "in:  ${it.absolutePath}\n"
+    }
+    task.outputs.files.each{ it ->
+        taskDetails << "out: ${it.absolutePath}\n"
+    }
+
+    taskDetails << "-------------"
+    println taskDetails
+}

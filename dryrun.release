@@ -36,5 +36,8 @@
 :app:mergeReleaseJniLibFolders SKIPPED
 :app:mergeReleaseNativeLibs SKIPPED
 :app:stripReleaseDebugSymbols SKIPPED
+:app:validateSigningRelease SKIPPED
 :app:packageRelease SKIPPED
 :app:assembleRelease SKIPPED
+
+BUILD SUCCESSFUL in 580ms

@@ -41,6 +41,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    lintOptions {
+        checkReleaseBuilds false
+    }
 }
 
 dependencies {
@@ -61,12 +64,12 @@ gradle.taskGraph.afterTask { task ->
 name:$task.name group:$task.group : $task.description
 conv:$task.convention.plugins
 """
-    task.inputs.files.each{ it ->
+    task.inputs.files.each { it ->
         if (it.absolutePath.contains("InspectAndroidBuild")) {
             taskDetails << "in:  ${it.absolutePath}\n"
         }
     }
-    task.outputs.files.each{ it ->
+    task.outputs.files.each { it ->
         if (it.absolutePath.contains("InspectAndroidBuild")) {
             taskDetails << "out: ${it.absolutePath}\n"
         }

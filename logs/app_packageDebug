@@ -1,0 +1,327 @@
+
+> Task :app:preBuild UP-TO-DATE
+
+name:preBuild group:null : null
+conv:[:]
+-------------
+
+> Task :app:preDebugBuild UP-TO-DATE
+
+name:preDebugBuild group:null : null
+conv:[:]
+-------------
+
+> Task :app:compileDebugAidl NO-SOURCE
+
+name:compileDebugAidl group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/aidl_source_output_dir/debug/out
+-------------
+
+> Task :app:compileDebugRenderscript NO-SOURCE
+
+name:compileDebugRenderscript group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/renderscript_lib/debug/lib
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/rs/debug/obj
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/res/rs/debug
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/renderscript_source_output_dir/debug/out
+-------------
+
+> Task :app:generateDebugBuildConfig
+
+name:generateDebugBuildConfig group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/source/buildConfig/debug
+-------------
+
+> Task :app:checkDebugAarMetadata
+
+name:checkDebugAarMetadata group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/aar_metadata_check/debug
+-------------
+
+> Task :app:generateDebugResValues
+
+name:generateDebugResValues group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/res/resValues/debug
+-------------
+
+> Task :app:generateDebugResources
+
+name:generateDebugResources group:null : null
+conv:[:]
+-------------
+
+> Task :app:createDebugCompatibleScreenManifests
+
+name:createDebugCompatibleScreenManifests group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compatible_screen_manifest/debug
+-------------
+
+> Task :app:extractDeepLinksDebug
+
+name:extractDeepLinksDebug group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/debug/res/navigation
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/res/navigation
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/navigation_json/debug/navigation.json
+-------------
+
+> Task :app:processDebugMainManifest
+
+name:processDebugMainManifest group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/AndroidManifest.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/navigation_json/debug/navigation.json
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/logs/manifest-merger-debug-report.txt
+-------------
+
+> Task :app:processDebugManifest
+
+name:processDebugManifest group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compatible_screen_manifest/debug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_manifests/debug
+-------------
+
+> Task :app:javaPreCompileDebug
+
+name:javaPreCompileDebug group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+-------------
+
+> Task :app:mergeDebugShaders
+
+name:mergeDebugShaders group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/shaders
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/debug/shaders
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/mergeDebugShaders
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_shaders/debug/out
+-------------
+
+> Task :app:compileDebugShaders NO-SOURCE
+
+name:compileDebugShaders group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_shaders/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/shader_assets/debug/out
+-------------
+
+> Task :app:generateDebugAssets UP-TO-DATE
+
+name:generateDebugAssets group:null : null
+conv:[:]
+-------------
+
+> Task :app:mergeDebugAssets
+
+name:mergeDebugAssets group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/shader_assets/debug/out
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/assets
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/debug/assets
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/mergeDebugAssets
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_assets/debug/out
+-------------
+
+> Task :app:compressDebugAssets
+
+name:compressDebugAssets group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_assets/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compressed_assets/debug/out
+-------------
+
+> Task :app:processDebugJavaRes NO-SOURCE
+
+name:processDebugJavaRes group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/java_res/debug/out
+-------------
+
+> Task :app:desugarDebugFileDependencies
+
+name:desugarDebugFileDependencies group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/external_file_lib_dex_archives/debug
+-------------
+
+> Task :app:mergeDebugJniLibFolders
+
+name:mergeDebugJniLibFolders group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/jniLibs
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/debug/jniLibs
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/mergeDebugJniLibFolders
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_jni_libs/debug/out
+-------------
+
+> Task :app:checkDebugDuplicateClasses
+
+name:checkDebugDuplicateClasses group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/duplicate_classes_check/debug
+-------------
+
+> Task :app:mergeDebugResources
+
+name:mergeDebugResources group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/res/resValues/debug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/res/rs/debug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/res
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/debug/res
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_res_blame_folder/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/data_binding_layout_info_type_merge/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/res/pngs/debug
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/mergeDebugResources
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/res/merged/debug
+-------------
+
+> Task :app:mergeLibDexDebug
+
+name:mergeLibDexDebug group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/duplicate_classes_check/debug
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/dex/debug/mergeLibDexDebug
+-------------
+
+> Task :app:validateSigningDebug
+
+name:validateSigningDebug group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/validate_signing_config/debug
+-------------
+
+> Task :app:processDebugManifestForPackage
+
+name:processDebugManifestForPackage group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_manifests/debug
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/packaged_manifests/debug
+-------------
+
+> Task :app:mergeDebugNativeLibs
+
+name:mergeDebugNativeLibs group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_native_libs/debug/out
+-------------
+
+> Task :app:mergeExtDexDebug
+
+name:mergeExtDexDebug group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/duplicate_classes_check/debug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/external_file_lib_dex_archives/debug
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/dex/debug/mergeExtDexDebug
+-------------
+
+> Task :app:processDebugResources
+
+name:processDebugResources group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/aar_metadata_check/debug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/res/merged/debug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/packaged_manifests/debug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_manifests/debug
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/processDebugResources
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/processed_res/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/runtime_symbol_list/debug/R.txt
+-------------
+
+> Task :app:compileDebugKotlin
+
+name:compileDebugKotlin group:null : Compiles the debug kotlin.
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/java/com/example/inspectandroidbuild/MainActivity.kt
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/source/buildConfig/debug/com/example/inspectandroidbuild/BuildConfig.java
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/tmp/kotlin-classes/debug
+-------------
+
+> Task :app:compileDebugJavaWithJavac
+
+name:compileDebugJavaWithJavac group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/tmp/kotlin-classes/debug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/source/buildConfig/debug/com/example/inspectandroidbuild/BuildConfig.java
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/ap_generated_sources/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/javac/debug/classes
+-------------
+
+> Task :app:dexBuilderDebug
+
+name:dexBuilderDebug group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/javac/debug/classes
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/tmp/kotlin-classes/debug
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/external_libs_dex_archive_with_artifact_transforms/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/external_libs_dex_archive/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/mixed_scope_dex_archive/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/project_dex_archive/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/sub_project_dex_archive/debug/out
+-------------
+
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+
+name:stripDebugDebugSymbols group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_native_libs/debug/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/stripped_native_libs/debug/out
+-------------
+
+> Task :app:mergeDebugJavaResource
+
+name:mergeDebugJavaResource group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_java_res/debug/out.jar
+-------------
+
+> Task :app:mergeProjectDexDebug
+
+name:mergeProjectDexDebug group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/project_dex_archive/debug/out
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/mixed_scope_dex_archive/debug/out
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/duplicate_classes_check/debug
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/dex/debug/mergeProjectDexDebug
+-------------
+
+> Task :app:packageDebug
+
+name:packageDebug group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compressed_assets/debug/out
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/dex/debug/mergeExtDexDebug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/dex/debug/mergeProjectDexDebug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/dex/debug/mergeLibDexDebug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_java_res/debug/out.jar
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/stripped_native_libs/debug/out
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/packaged_manifests/debug
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/processed_res/debug/out
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/validate_signing_config/debug
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/apk/debug/output-metadata.json
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/packageDebug/tmp
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/apk/debug
+-------------
+
+BUILD SUCCESSFUL in 4s
+27 actionable tasks: 27 executed

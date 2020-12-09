@@ -1,0 +1,1087 @@
+
+> Task :app:preBuild UP-TO-DATE
+
+name:preBuild group:null : null
+conv:[:]
+-------------
+
+> Task :app:extractProguardFiles UP-TO-DATE
+
+name:extractProguardFiles group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/proguard-files/proguard-android-optimize.txt-4.1.1
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/proguard-files/proguard-defaults.txt-4.1.1
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/proguard-files/proguard-android.txt-4.1.1
+-------------
+
+> Task :app:preReleaseBuild UP-TO-DATE
+
+name:preReleaseBuild group:null : null
+conv:[:]
+-------------
+
+> Task :app:compileReleaseAidl NO-SOURCE
+
+name:compileReleaseAidl group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/aidl_source_output_dir/release/out
+-------------
+
+> Task :app:compileReleaseRenderscript NO-SOURCE
+
+name:compileReleaseRenderscript group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/renderscript_lib/release/lib
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/rs/release/obj
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/res/rs/release
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/renderscript_source_output_dir/release/out
+-------------
+
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+
+name:generateReleaseBuildConfig group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/source/buildConfig/release
+-------------
+
+> Task :app:checkReleaseAarMetadata UP-TO-DATE
+
+name:checkReleaseAarMetadata group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/aar_metadata_check/release
+-------------
+
+> Task :app:generateReleaseResValues UP-TO-DATE
+
+name:generateReleaseResValues group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/res/resValues/release
+-------------
+
+> Task :app:generateReleaseResources UP-TO-DATE
+
+name:generateReleaseResources group:null : null
+conv:[:]
+-------------
+
+> Task :app:mergeReleaseResources UP-TO-DATE
+
+name:mergeReleaseResources group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/res/resValues/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/res/rs/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/res
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/release/res
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_res_blame_folder/release/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/data_binding_layout_info_type_merge/release/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/res/pngs/release
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/mergeReleaseResources
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/res/merged/release
+-------------
+
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+
+name:createReleaseCompatibleScreenManifests group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compatible_screen_manifest/release
+-------------
+
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+
+name:extractDeepLinksRelease group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/release/res/navigation
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/res/navigation
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/navigation_json/release/navigation.json
+-------------
+
+> Task :app:processReleaseMainManifest UP-TO-DATE
+
+name:processReleaseMainManifest group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/AndroidManifest.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/navigation_json/release/navigation.json
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/manifest_merge_blame_file/release/manifest-merger-blame-release-report.txt
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_manifest/release/out/AndroidManifest.xml
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/logs/manifest-merger-release-report.txt
+-------------
+
+> Task :app:processReleaseManifest UP-TO-DATE
+
+name:processReleaseManifest group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compatible_screen_manifest/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_manifest/release/out/AndroidManifest.xml
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_manifests/release
+-------------
+
+> Task :app:processReleaseManifestForPackage UP-TO-DATE
+
+name:processReleaseManifestForPackage group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_manifests/release
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/packaged_manifests/release
+-------------
+
+> Task :app:processReleaseResources UP-TO-DATE
+
+name:processReleaseResources group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/aar_metadata_check/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/res/merged/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/packaged_manifests/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_manifests/release
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/processReleaseResources
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/processed_res/release/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/symbol_list_with_package_name/release/package-aware-r.txt
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/runtime_symbol_list/release/R.txt
+-------------
+
+> Task :app:compileReleaseKotlin UP-TO-DATE
+
+name:compileReleaseKotlin group:null : Compiles the release kotlin.
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/java/com/example/inspectandroidbuild/MainActivity.kt
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/java/com/example/inspectandroidbuild/Foo.java
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/source/buildConfig/release/com/example/inspectandroidbuild/BuildConfig.java
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/tmp/kotlin-classes/release
+-------------
+
+> Task :app:javaPreCompileRelease UP-TO-DATE
+
+name:javaPreCompileRelease group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/annotation_processor_list/release/annotationProcessors.json
+-------------
+
+> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+
+name:compileReleaseJavaWithJavac group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/tmp/kotlin-classes/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/java/com/example/inspectandroidbuild/Foo.java
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/source/buildConfig/release/com/example/inspectandroidbuild/BuildConfig.java
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/annotation_processor_list/release/annotationProcessors.json
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/generated/ap_generated_sources/release/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/javac/release/classes
+-------------
+
+> Task :app:compileReleaseSources UP-TO-DATE
+
+name:compileReleaseSources group:build : null
+conv:[:]
+-------------
+
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+
+name:mergeReleaseNativeDebugMetadata group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/native-debug-symbols/release/native-debug-symbols.zip
+-------------
+
+> Task :app:mergeReleaseShaders UP-TO-DATE
+
+name:mergeReleaseShaders group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/shaders
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/release/shaders
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/mergeReleaseShaders
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_shaders/release/out
+-------------
+
+> Task :app:compileReleaseShaders NO-SOURCE
+
+name:compileReleaseShaders group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_shaders/release/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/shader_assets/release/out
+-------------
+
+> Task :app:generateReleaseAssets UP-TO-DATE
+
+name:generateReleaseAssets group:null : null
+conv:[:]
+-------------
+
+> Task :app:mergeReleaseAssets UP-TO-DATE
+
+name:mergeReleaseAssets group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/shader_assets/release/out
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/assets
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/release/assets
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/mergeReleaseAssets
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_assets/release/out
+-------------
+
+> Task :app:compressReleaseAssets UP-TO-DATE
+
+name:compressReleaseAssets group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_assets/release/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compressed_assets/release/out
+-------------
+
+> Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+
+name:checkReleaseDuplicateClasses group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/duplicate_classes_check/release
+-------------
+
+> Task :app:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+
+name:mergeReleaseGeneratedProguardFiles group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/generated_proguard_file/release/proguard.txt
+-------------
+
+> Task :app:processReleaseJavaRes NO-SOURCE
+
+name:processReleaseJavaRes group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/java_res/release/out
+-------------
+
+> Task :app:mergeReleaseJavaResource UP-TO-DATE
+
+name:mergeReleaseJavaResource group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/tmp/kotlin-classes/release/META-INF/app_release.kotlin_module
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_java_res/release/out.jar
+-------------
+
+> Task :app:minifyReleaseWithR8 UP-TO-DATE
+
+name:minifyReleaseWithR8 group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/javac/release/classes
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/tmp/kotlin-classes/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/proguard-files/proguard-android-optimize.txt-4.1.1
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/proguard-rules.pro
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/generated_proguard_file/release/proguard.txt
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/duplicate_classes_check/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_java_res/release/out.jar
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/mapping/release/mapping.txt
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/dex/release/minifyReleaseWithR8
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/shrunk_java_res/release/shrunkJavaRes.jar
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/mapping/release/configuration.txt
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/mapping/release/seeds.txt
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/mapping/release/usage.txt
+-------------
+
+> Task :app:collectReleaseDependencies UP-TO-DATE
+
+name:collectReleaseDependencies group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/metadata_library_dependencies_report/release/dependencies.pb
+-------------
+
+> Task :app:sdkReleaseDependencyData UP-TO-DATE
+
+name:sdkReleaseDependencyData group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/metadata_library_dependencies_report/release/dependencies.pb
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/sdk_dependency_data/release/sdkDependencyData.pb
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/sdk-dependencies/release/sdkDependencies.txt
+-------------
+
+> Task :app:shrinkReleaseRes UP-TO-DATE
+
+name:shrinkReleaseRes group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/dex/release/minifyReleaseWithR8
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/mapping/release/mapping.txt
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/packaged_manifests/release/AndroidManifest.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/packaged_manifests/release/output-metadata.json
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/runtime_symbol_list/release/R.txt
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-v17/values-v17.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-v28/values-v28.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-v26/values-v26.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-v21/values-v21.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/design_snackbar_out.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_slide_in_bottom.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/mtrl_card_lowers_interpolator.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_radio_to_off_mtrl_dot_group_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_slide_out_top.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_tooltip_exit.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_radio_to_on_mtrl_dot_group_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_popup_enter.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_fade_out.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_slide_in_top.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_checkbox_to_checked_icon_null_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_grow_fade_in_from_bottom.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_shrink_fade_out_from_bottom.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_slide_out_bottom.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_tooltip_enter.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_fade_in.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/design_snackbar_in.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_checkbox_to_unchecked_icon_null_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/abc_popup_exit.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v23/mtrl_popupmenu_background_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v23/abc_control_background_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-sw600dp-v13/values-sw600dp-v13.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ro/values-ro.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/design_ic_visibility_off.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/design_ic_visibility.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-te/values-te.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-v18/values-v18.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ru/values-ru.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-tl/values-tl.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color-v23/abc_tint_seek_thumb.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color-v23/abc_tint_btn_checkable.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color-v23/abc_btn_colored_borderless_text_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color-v23/abc_tint_switch_track.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color-v23/abc_color_highlight_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color-v23/abc_tint_edittext.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color-v23/abc_tint_spinner.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color-v23/abc_tint_default.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color-v23/abc_btn_colored_text_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-v16/values-v16.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-zh-rTW/values-zh-rTW.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-watch-v20/values-watch-v20.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-it/values-it.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ca/values-ca.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-is/values-is.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-cs/values-cs.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-land/mtrl_picker_header_dialog.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator/fast_out_slow_in.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator/mtrl_linear.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-xxxhdpi-v4/ic_launcher.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-xxxhdpi-v4/ic_launcher_round.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-h480dp-land-v13/values-h480dp-land-v13.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-zh-rCN/values-zh-rCN.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-watch-v21/values-watch-v21.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/navigation_empty_icon.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_btn_default_mtrl_shape.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_mtrl_chip_checked_circle.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_btn_radio_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_textfield_search_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/mtrl_ic_cancel.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_seekbar_thumb_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/mtrl_popupmenu_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/btn_radio_off_to_on_mtrl_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/notification_bg_low.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_edit_black_24dp.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/mtrl_dialog_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/design_snackbar_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_keyboard_arrow_left_black_24dp.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/btn_radio_on_to_off_mtrl_animation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_list_selector_holo_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/mtrl_ic_error.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_seekbar_track_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_mtrl_chip_checked_black.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_menu_arrow_down_black_24dp.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_seekbar_tick_mark_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/mtrl_popupmenu_background_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/tooltip_frame_light.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_vector_test.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/btn_radio_on_mtrl.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_text_cursor_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_ic_search_api_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_cab_background_top_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_list_selector_background_transition_holo_light.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_tab_indicator_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_calendar_black_24dp.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_clear_black_24dp.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_ratingbar_small_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/notification_tile_bg.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_mtrl_chip_close_circle.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_ic_voice_search_api_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_cab_background_internal_bg.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_btn_radio_material_anim.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_item_background_holo_light.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/btn_checkbox_checked_mtrl.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_mtrl_checked_circle.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_ratingbar_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/test_custom_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_ic_menu_overflow_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/mtrl_tabs_default_indicator.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_ratingbar_indicator_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_keyboard_arrow_right_black_24dp.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/btn_radio_off_mtrl.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_btn_check_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_btn_borderless_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/design_fab_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_switch_thumb_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/mtrl_ic_arrow_drop_up.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_ic_go_search_api_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/btn_checkbox_unchecked_mtrl.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_ic_ab_back_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_list_selector_holo_light.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_btn_check_material_anim.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/notification_icon_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_item_background_holo_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/tooltip_frame_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_list_selector_background_transition_holo_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/mtrl_dropdown_arrow.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_spinner_textfield_background_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/notification_bg.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_menu_arrow_up_black_24dp.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/ic_launcher_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/abc_ic_clear_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable/mtrl_ic_arrow_drop_down.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-hdpi-v4/ic_launcher.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-hdpi-v4/ic_launcher_round.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-watch-v20/abc_alert_dialog_button_bar_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-watch-v20/abc_alert_dialog_title_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-in/values-in.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ja/values-ja.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-el/values-el.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-anydpi-v24/ic_launcher_foreground.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ldltr-v21/values-ldltr-v21.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-lv/values-lv.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-xhdpi-v4/ic_launcher.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-xhdpi-v4/ic_launcher_round.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-w480dp-port-v13/values-w480dp-port-v13.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-da/values-da.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-mr/values-mr.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-kk/values-kk.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ky/values-ky.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-gu/values-gu.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-en-rCA/values-en-rCA.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-mn/values-mn.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/text_view_with_theme_line_height.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_picker_text_input_date.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_alert_dialog_actions.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_list_menu_item_checkbox.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_layout_snackbar_include.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_text_input_start_icon.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_alert_dialog_button_bar_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_picker_header_fullscreen.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_activity_chooser_view_list_item.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/text_view_with_line_height_from_layout.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_layout_tab_icon.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_screen_content_include.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_picker_dialog.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_activity_chooser_view.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_select_dialog_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/test_toolbar_elevation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_action_bar_title_item.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_calendar_year.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_alert_dialog_title.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/test_toolbar.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_screen_toolbar.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/text_view_with_line_height_from_appearance.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_dialog_title_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_picker_header_dialog.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_search_view.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_search_dropdown_item_icons_2line.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_action_menu_item_layout.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_bottom_sheet_dialog.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_calendar_months.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_bottom_navigation_item.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_action_bar_up_container.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_list_menu_item_layout.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_text_input_end_icon.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_navigation_item_separator.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_calendar_day_of_week.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_picker_header_toggle.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_calendar_month_navigation.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/test_reflow_chipgroup.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_calendar_month.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_action_menu_layout.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/notification_template_part_time.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_list_menu_item_radio.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_layout_snackbar_include.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/custom_dialog.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_calendar_horizontal.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_alert_select_dialog_multichoice.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/test_toolbar_custom_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_screen_simple_overlay_action_mode.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_calendar_vertical.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_popup_menu_item_layout.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_picker_header_title_text.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_picker_fullscreen.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_menu_item_action_area.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/select_dialog_singlechoice_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/select_dialog_item_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_navigation_menu.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_picker_header_selection_text.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/test_action_chip.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/support_simple_spinner_dropdown_item.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_alert_dialog_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_alert_select_dialog_item.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_navigation_item.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_tooltip.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_action_mode_bar.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_navigation_item_header.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/test_design_checkbox.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_picker_text_input_date_range.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_layout_snackbar.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_calendar_month_labeled.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_action_mode_close_item_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/test_toolbar_surface.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_navigation_item_subheader.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_list_menu_item_icon.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_expanded_menu_layout.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_cascading_menu_item_layout.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/activity_main.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_calendar_days_of_week.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/text_view_without_line_height.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_calendar_day.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_layout_snackbar.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_navigation_menu_item.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/text_view_with_line_height_from_style.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_alert_select_dialog_singlechoice.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_popup_menu_header_item_layout.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_alert_dialog_title_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/notification_template_part_chronometer.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_alert_dialog.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/mtrl_picker_actions.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/abc_screen_simple.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/select_dialog_multichoice_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout/design_layout_tab_text.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-h720dp-v13/values-h720dp-v13.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-en-rIN/values-en-rIN.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/design_ic_visibility_off.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_star_black_16dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/design_ic_visibility.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_star_black_48dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/notification_bg_normal.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ms/values-ms.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-zh-rHK/values-zh-rHK.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_secondary_text_material_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_btn_stroke_color_selector.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/checkbox_themeable_attribute_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/material_on_background_disabled.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_fab_ripple_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_filled_background_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_primary_text_disable_only_material_light.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_background_cache_hint_selector_material_light.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_tint_seek_thumb.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_bottom_nav_colored_ripple_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_card_view_ripple.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/material_on_surface_emphasis_high_type.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_tint_btn_checkable.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/design_icon_tint.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_popupmenu_overlay_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/test_mtrl_calendar_day.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_btn_text_btn_bg_color_selector.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_tabs_colored_ripple_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_btn_bg_color_selector.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_outlined_stroke_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_tint_switch_track.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_navigation_item_text_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_choice_chip_ripple_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_btn_text_color_selector.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/material_on_surface_emphasis_medium.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_extended_fab_bg_color_selector.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/switch_thumb_material_light.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_tabs_ripple_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_primary_text_material_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_chip_background_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_hint_foreground_material_light.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_bottom_nav_item_tint.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_tabs_icon_color_selector.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_tabs_legacy_text_color_selector.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_choice_chip_text_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_on_primary_text_btn_text_color_selector.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_error.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_hint_foreground_material_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_outlined_icon_tint.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_extended_fab_ripple_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/switch_thumb_material_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_indicator_text_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_text_btn_text_color_selector.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_filled_icon_tint.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_primary_text_material_light.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_search_url_text.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/design_error.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_card_view_foreground.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_chip_ripple_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_chip_close_icon_tint.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_tint_edittext.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_bottom_nav_ripple_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_navigation_item_background_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_tint_spinner.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/material_on_background_emphasis_medium.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_tabs_icon_color_selector_colored.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_calendar_selected_range.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_extended_fab_text_color_selector.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_bottom_nav_colored_item_tint.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_chip_text_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_primary_text_disable_only_material_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_secondary_text_material_light.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/material_on_primary_disabled.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/test_mtrl_calendar_day_selected.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/material_on_surface_disabled.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_calendar_item_stroke_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/design_box_stroke_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_navigation_item_icon_tint.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_background_cache_hint_selector_material_dark.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_choice_chip_background_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_filled_stroke_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/material_on_background_emphasis_high_type.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_btn_text_btn_ripple_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/material_on_primary_emphasis_high_type.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_tint_default.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_btn_ripple_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/material_on_primary_emphasis_medium.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/mtrl_chip_surface_color.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color/abc_btn_colored_text_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-km/values-km.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-mdpi-v4/ic_launcher.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-mdpi-v4/ic_launcher_round.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-pt-rBR/values-pt-rBR.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-sw600dp-v13/design_layout_snackbar.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-sw600dp-v13/mtrl_layout_snackbar.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator-v21/design_appbar_state_list_animator.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-hy/values-hy.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-am/values-am.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-be/values-be.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-land/values-land.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-xlarge-v4/values-xlarge-v4.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values/values.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-uz/values-uz.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-fr-rCA/values-fr-rCA.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-pl/values-pl.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-vi/values-vi.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-sq/values-sq.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-sv/values-sv.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_btn_unelevated_state_list_anim.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/design_fab_show_motion_spec.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_fab_hide_motion_spec.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_btn_state_list_anim.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_fab_transformation_sheet_expand_spec.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_extended_fab_state_list_animator.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_fab_transformation_sheet_collapse_spec.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_extended_fab_show_motion_spec.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_card_state_list_anim.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_extended_fab_hide_motion_spec.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_extended_fab_change_size_motion_spec.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_fab_show_motion_spec.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/design_fab_hide_motion_spec.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/animator/mtrl_chip_state_list_anim.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-sl/values-sl.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-sk/values-sk.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ur/values-ur.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/design_ic_visibility_off.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/design_ic_visibility.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-sw/values-sw.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-pt-rPT/values-pt-rPT.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/xml/standalone_badge_gravity_top_start.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/xml/standalone_badge_gravity_bottom_start.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/xml/standalone_badge_gravity_bottom_end.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/xml/standalone_badge.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-tr/values-tr.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/color-v21/abc_btn_colored_borderless_text_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-v22/values-v22.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-small-v4/values-small-v4.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-v25/values-v25.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-hdpi-v4/values-hdpi-v4.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/avd_hide_password.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/abc_action_bar_item_background_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/design_password_eye.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/abc_list_divider_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/notification_action_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/design_bottom_navigation_item_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/abc_btn_colored_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/avd_show_password.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/abc_edit_text_material.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/abc_dialog_material_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-v24/values-v24.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-large-v4/values-large-v4.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ta/values-ta.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-v23/values-v23.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-th/values-th.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-w360dp-port-v13/values-w360dp-port-v13.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-fa/values-fa.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-lt/values-lt.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-anydpi-v21/design_ic_visibility_off.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-anydpi-v21/design_ic_visibility.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/design_ic_visibility_off.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_list_focused_holo.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/notification_bg_low_normal.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_star_black_16dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/design_ic_visibility.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_star_black_48dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_star_black_36dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/notification_bg_normal.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-or/values-or.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-v26/abc_screen_toolbar.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-v26/mtrl_calendar_month.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-eu/values-eu.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-v21/notification_template_icon_group.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-v21/notification_action_tombstone.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-v21/notification_action.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/layout-v21/notification_template_custom_big.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-lo/values-lo.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-watch-v20/abc_dialog_material_background.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-iw/values-iw.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-en-rGB/values-en-rGB.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-fi/values-fi.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-night-v8/values-night-v8.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-xxhdpi-v4/ic_launcher.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-xxhdpi-v4/ic_launcher_round.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-en-rAU/values-en-rAU.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-port/values-port.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim-v21/mtrl_bottom_sheet_slide_out.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim-v21/mtrl_bottom_sheet_slide_in.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim-v21/design_bottom_sheet_slide_in.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/anim-v21/design_bottom_sheet_slide_out.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-fr/values-fr.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-es/values-es.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-et/values-et.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-hr/values-hr.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-hu/values-hu.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-nl/values-nl.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-bg/values-bg.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-bn/values-bn.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ne/values-ne.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-af/values-af.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-nb/values-nb.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-hi/values-hi.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ka/values-ka.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-de/values-de.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-as/values-as.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-az/values-az.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/design_ic_visibility_off.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_list_focused_holo.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/notification_bg_low_normal.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_star_black_16dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/design_ic_visibility.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_star_black_48dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_star_black_36dp.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/notification_bg_normal.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ko/values-ko.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ml/values-ml.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-h360dp-land-v13/values-h360dp-land-v13.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-mk/values-mk.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-kn/values-kn.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-bs/values-bs.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-my/values-my.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-ar/values-ar.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-es-rUS/values-es-rUS.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-gl/values-gl.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-pt/values-pt.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-uk/values-uk.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-sr/values-sr.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator-v21/mtrl_fast_out_slow_in.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator-v21/mtrl_fast_out_linear_in.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/interpolator-v21/mtrl_linear_out_slow_in.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-pa/values-pa.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-si/values-si.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-b+sr+Latn/values-b+sr+Latn.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-en-rXC/values-en-rXC.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/values-zu/values-zu.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-anydpi-v26/ic_launcher.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged-not-compiled-resources/release/mipmap-anydpi-v26/ic_launcher_round.xml
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/processed_res/release/out/output-metadata.json
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/processed_res/release/out/resources-release.ap_
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/shrunk_processed_res/release
+-------------
+
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+
+name:mergeReleaseJniLibFolders group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/main/jniLibs
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/src/release/jniLibs
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/mergeReleaseJniLibFolders
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_jni_libs/release/out
+-------------
+
+> Task :app:mergeReleaseNativeLibs UP-TO-DATE
+
+name:mergeReleaseNativeLibs group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/release-mergeNativeLibs/zip-cache
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_native_libs/release/out
+-------------
+
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+
+name:stripReleaseDebugSymbols group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/merged_native_libs/release/out
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/stripped_native_libs/release/out
+-------------
+
+> Task :app:validateSigningRelease UP-TO-DATE
+
+name:validateSigningRelease group:null : null
+conv:[:]
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/validate_signing_config/release
+-------------
+
+> Task :app:packageRelease UP-TO-DATE
+
+name:packageRelease group:null : null
+conv:[:]
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/compressed_assets/release/out
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/sdk_dependency_data/release/sdkDependencyData.pb
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/dex/release/minifyReleaseWithR8
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/shrunk_java_res/release/shrunkJavaRes.jar
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/stripped_native_libs/release/out
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/packaged_manifests/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/shrunk_processed_res/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/validate_signing_config/release
+in:  /Users/duanyufei/work/Android/InspectAndroidBuild/keystore
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/apk/release/output-metadata.json
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/intermediates/incremental/packageRelease/tmp
+out: /Users/duanyufei/work/Android/InspectAndroidBuild/app/build/outputs/apk/release
+-------------
+
+> Task :app:assembleRelease UP-TO-DATE
+
+name:assembleRelease group:null : Assembles main output for variant release
+conv:[:]
+-------------
+
+BUILD SUCCESSFUL in 697ms
+28 actionable tasks: 28 up-to-date
